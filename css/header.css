@@ -1,0 +1,123 @@
+header {
+  width: 100%;
+  background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+  padding-top: 22px;
+  padding-bottom: 142px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.hamburger,
+.close {
+  display: none;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo span {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+.nav-links {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b8e99;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+/*</nav>*/
+
+#header-main {
+  margin-top: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left {
+  max-width: 457px;
+}
+/* .header-right {
+  width: 50%;
+} */
+.header-left h1 {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 125.5%;
+  color: #ffffff;
+}
+.header-left p {
+  margin-top: 2px;
+  margin-bottom: 47px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: #8b8e99;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 0px;
+}
+.form-search-icon {
+  position: relative;
+  right: 340px;
+}
+.search-form input {
+  width: 443px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 56px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: #000;
+}
+.search-form input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+.search-form input::placeholder {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: rgba(139, 142, 153, 0.7);
+}
+.search-form button {
+  position: relative;
+  right: 105px;
+  background: #3858d6;
+  border-radius: 9px;
+  padding: 12px 6px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125.5%;
+  color: #ffffff;
+}
