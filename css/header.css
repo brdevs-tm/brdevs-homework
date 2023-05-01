@@ -26,7 +26,7 @@ nav {
   line-height: 24px;
   color: #ffffff;
 }
-.middle {
+.nav-list {
   display: flex;
   align-items: center;
   gap: 27px;
